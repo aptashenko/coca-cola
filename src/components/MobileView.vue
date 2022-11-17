@@ -40,7 +40,7 @@ export default {
 
     &__title {
         margin: 0;
-        font-size: 40px;
+        font-size: 38px;
         font-family: 'UnityCondensed Bold';
         text-transform: uppercase;
         color: #fff;

@@ -35,6 +35,7 @@ export default {
     padding: 20px 0;
     font-family: 'HelveticaNeue';
     font-weight: bold;
+    flex-grow: 1;
 
     &__text {
         font-size: 10px;

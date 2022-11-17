@@ -51,6 +51,8 @@ html, body {
 #app {
   height: 100%;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .container {
@@ -69,5 +71,4 @@ html, body {
     max-width: 1200px;
   }
 }
-
 </style>
