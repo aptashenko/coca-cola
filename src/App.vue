@@ -11,7 +11,6 @@
 <script>
 import './assets/styles/normalize.css';
 import './assets/styles/fonts.css';
-import './assets/styles/tablet.scss';
 import MobileView from './components/MobileView.vue';
 import FooterView from './components/FooterView.vue';
 import DesktopView from './components/DesktopView.vue';
@@ -27,7 +26,7 @@ export default {
   },
   data() {
     return {
-      isDesktop: false,
+      isDesktop: window.innerWidth >= 1200,
     }
   },
   methods: {
